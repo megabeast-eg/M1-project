@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: Roboto Slab, Roboto;
+
+  background-color: rgb(229, 229, 229);
+}
+
+h3 {
+  font-family: Roboto Slab;
+  font-size: 55px;
+  margin-left: 121px;
+  margin-top: 249px;
+  width: 667px;
+}
+.wrapper {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: 122px;
+}
+
+.column {
+  border-collapse: collapse;
+  width: 100%;
+  margin-right: 300px;
+  font-size: 14px;
+  text-align: left;
+}
+.column1 {
+  width: calc(33% - 10px);
+  margin-right: 250px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.column2 {
+  width: calc(33% - 10px);
+  margin-right: 250px;
+  font-size: 14px;
+  text-align: left;
+}
+.column3 {
+  width: calc(33% - 10px);
+  margin-right: 250px;
+  font-size: 14px;
+  text-align: left;
+}
+h3 {
+  font-size: 32px;
+}
+h4 {
+  font-size: 15px;
+  width: auto;
+  color: rgb(30, 70, 129);
+}
+p {
+  font-size: 11px;
+}
+
+ul {
+  font-family: Roboto;
+  font-size: 14px;
+  margin-left: 121px;
+  width: 100%;
+  display: list-item;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 992px) {
+  .wrapper {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .column {
+    width: 90%;
+  }
+  h4 {
+    font-size: 25px;
+    width: auto;
+    color: rgb(30, 70, 129);
+  }
+  p {
+    font-size: 18px;
+  }
+
+  ul {
+    font-family: Roboto;
+    font-size: 24px;
+    margin-left: 121px;
+    width: 100%;
+    display: list-item;
+  }
+
+  li {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 320px) {
+  .wrapper {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .column {
+    width: 90%;
+  }
+}
