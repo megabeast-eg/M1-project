@@ -1,11 +1,334 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-* {
-    margin: 0;
-    padding: 0;
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;  
+  box-sizing: border-box;
 }
-body {
-    font-family: 'Roboto', sans-serif;
+
+.course_start_date{
+    max-width: 1440px;
+    background-color: #9DC9C8;
+    margin:0 auto;
 }
+
+h2{
+    font-weight: bold;
+    font-size: 55px;
+    font-family: 'Roboto Slab', sans-serif;
+    padding: 179px 0 0 0;
+}
+
+.section-wrapper{
+    padding-left:122px;
+    padding-right: 146px;
+}
+
+.course_reasons_header{
+    font-size: 25px;
+    font-weight: 400;
+    margin:0px;
+    padding:0px;
+}
+
+.course_cost{
+    font-size: 80px;
+    margin:0px;
+    padding:0px;
+}
+
+.course_cost_container{
+    margin-bottom: 88px;   
+}
+
+.course_reasons_containter{
+  display: flex;
+  
+}
+
+.course_reasons{
+    max-width:  280px;
+    margin-right: 70px;
+    margin-bottom: 185px;
+}
+
+.course_reasons_text{
+    size:18px;
+}
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: black;
+    color:white;
+}
+
+#synch_logo_white{
+    width: 115px;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .instagram {
+     width:33px;
+     height: 33px;
+ }
+
+ .facebook {
+     width:32px;
+     height:32px;
+ }
+
+ .vk {
+     width:35px;
+     height:35px;
+ }
+
+ .viber {
+     width:34px;
+     height: 34px;
+ }
+
+ .logo {
+    padding-right: 12px;
+ }
+
+ .footer_logo_social{
+     padding-top: 50px;
+ }
+
+ .footer_social_buttons{
+     padding-top: 30px;
+ }
+
+ .phone{
+     width:27px;
+     height: 27px;
+ }
+
+ .mail{
+     width: 27px;
+     height: 18px;
+ }
+
+ .footer_contacts{
+     padding-top: 59px;
+     font-size: 25px;
+ }
+
+ .footer_contacts_email{
+     padding-top: 10px;
+ }
+
+ .footer_copyright{
+     padding-top: 146px;
+     padding-bottom: 30px;
+     font-size: 18px;
+ }
+
+ a{
+    text-decoration: none;  
+    color:white; 
+ }
+/* Tablet scale*/
+@media screen and (min-width:992px) and (max-width: 1279px){
+
+    .course_start_date{
+        max-width: 834px;
+    }
+    h2{
+        font-size: 32px;
+        padding-top: 103px;
+    }
+    .course_cost{
+        font-size:46px;
+    }
+
+    .course_reasons_header{
+        font-size: 14px;
+    }
+
+    .course_reasons_text{
+        font-size:10px;
+    }
+
+    .section-wrapper{
+        padding-left: 70px;
+        padding-right:85px;
+    }
+    .course_reasons{
+        max-width:  170px;
+        margin-right: 40px;
+        margin-bottom: 107px;
+    }
+    .course_cost_container{
+        margin-bottom: 40px;   
+    }
+    footer{
+        max-width: 834px;
+    }
+
+    #synch_logo_white{
+        width: 66px;
+        height: 40px;
+    }
+
+  .footer_social_buttons{
+      padding-top: 18px;
+  }
+
+  .footer_logo_social{
+    padding-top: 30px;
+}
+    .logo{
+        padding-right: 10px;
+    }
+
+    .instagram{
+        width: 19px;
+        height: 19px;
+    }
+
+    .facebook{
+        width:19px;
+        height: 19px;
+    }
+
+    .vk{
+        width: 20px;
+        height: 20px;
+    }
+
+    .viber{
+        width: 20px;
+        height: 20px;
+    }
+
+    .phone{
+        width: 15px;
+        height: 15px;
+    }
+
+    .mail{
+        width: 16px;
+        height: 10px;
+    }
+
+    .footer_contacts{
+        font-size: 14px;
+        padding-top: 35px; 
+    }
+
+    .footer_copyright{
+        font-size: 10px;
+        padding-top: 85px;
+        padding-bottom: 20px;
+    }
+
+}
+
+/* Smartphone scale */
+@media screen and (min-width:320px) and (max-width: 991px){
+    .course_start_date{
+        max-width: 394px;
+    }
+    h2{
+        font-size: 26px;
+        padding-top: 62px;
+        max-width: 224px;
+    }
+    .course_cost{
+        font-size:37px;
+    }
+
+    .course_reasons_header{
+        font-size: 12px;
+    }
+
+    .course_reasons_text{
+        font-size:10px;
+    }
+
+    .section-wrapper{
+        padding-left: 35px;
+        padding-right:0px;
+    }
+    .course_reasons{
+        max-width:  138px;
+        margin-right: 30px;
+        margin-bottom: 63px;
+    }
+    .course_cost_container{
+        margin-bottom: 35px;   
+    }
+    footer{
+        max-width: 394px;
+    }
+
+    .footer_container{
+        display:block;
+    }
+
+    #synch_logo_white{
+        width: 54px;
+        height: 32px;
+    }
+
+  .footer_social_buttons{
+      padding-top: 14px;
+  }
+
+  .footer_logo_social{
+    padding-top: 22px;
+    }
+    .logo{
+        padding-right: 8px;
+    }
+
+    .instagram{
+        width: 15px;
+        height: 15px;
+    }
+
+    .facebook{
+        width:15px;
+        height: 15px;
+    }
+
+    .vk{
+        width: 16px;
+        height: 16px;
+    }
+
+    .viber{
+        width: 16px;
+        height: 16px;
+    }
+
+    .phone{
+        width: 13px;
+        height: 13px;
+    }
+
+    .mail{
+        width: 14px;
+        height: 9px;
+    }
+
+    .footer_contacts{
+        font-size: 12px;
+        padding-top: 35px; 
+    }
+
+    .footer_copyright{
+        font-size: 10px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
 
 /* Программа курса */
 .section {
@@ -505,3 +828,7 @@ h2 {
     width: 150px;
 
 }
+<<<<<<< HEAD
+}
+=======
+>>>>>>> master
