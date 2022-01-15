@@ -1,9 +1,21 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+
 body {
-  font-family: Roboto Slab, Roboto;
-  background-color: rgb(229, 229, 229);
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;  
+  box-sizing: border-box;
+}
+.wrapper {
+    width: 100%;
+    margin:0 auto;
+}
+
+.first_container{
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 h3 {
@@ -13,11 +25,7 @@ h3 {
   margin-top: 249px;
   width: 667px;
 }
-.wrapper {
-  box-sizing: border-box;
-  width: 100%;
-  margin-left: 122px;
-}
+
 
 .column {
   border-collapse: collapse;
@@ -68,7 +76,7 @@ ul {
 li {
   padding-bottom: 10px;
 }
-
+/*
 @media screen and (max-width: 1279px) and (min-width: 992px) {
   .wrapper {
     justify-content: space-between;
@@ -110,13 +118,8 @@ li {
 }
 
 
-body{
-  margin:0;
-  padding:0;
-  font-family: 'Roboto', sans-serif;  
-  box-sizing: border-box;
-}
 
+*/
 .course_start_date{
     max-width: 1440px;
     background-color: #9DC9C8;
@@ -245,6 +248,7 @@ footer{
     color:white; 
  }
 /* Tablet scale*/
+/*
 @media screen and (min-width:992px) and (max-width: 1279px){
 
     .course_start_date{
@@ -342,6 +346,7 @@ footer{
 }
 
 /* Smartphone scale */
+/*
 @media screen and (min-width:320px) and (max-width: 991px){
     .course_start_date{
         max-width: 394px;
@@ -447,7 +452,6 @@ footer{
 .container {
     max-width: calc(1440px - 169px);
     margin: 0 auto;
-    box-sizing: border-box;
 }
 
 .program h2 {
@@ -565,13 +569,12 @@ footer{
     padding-top: 40px;
     padding-bottom: 28px;
 }
-
+/*
 @media (min-width:992px) and (max-width: 1279px) {
 
 .container {
     max-width: calc(834px - 97px);
     margin: 0 auto;
-    box-sizing: border-box;
 }
 .program h2 {
     font-size: 32px;
@@ -634,7 +637,6 @@ footer{
 .container {
     max-width: calc(375px - 64px);
     margin: 0 auto;
-    box-sizing: border-box;
 }
 .program h2 {
     font-size: 26px;
@@ -695,11 +697,11 @@ footer{
 .container {
     max-width: calc(834px - 97px);
     margin: 0 auto;
-    box-sizing: border-box;
 }
 .student {
     background: #EFEFEF;
 /* width: 834px;*/
+/*
 }
 .student .container {
     padding-bottom: 64px;
@@ -747,12 +749,13 @@ footer{
 .container {
     max-width: calc(375px - 64px);
     margin: 0 auto;
-    box-sizing: border-box;
 }
 .student {
     background: #EFEFEF;
     /* width: 375px;*/
+/*
 }
+/*
 .student .container {
     padding-bottom: 53px;
 }
@@ -798,22 +801,14 @@ footer{
     height: 17px;
 }
 }
-
+*/
 /* Курс прошло человек */
 
-.wrapper {
-    width: 80%;
-    margin: 0 auto;
-}
-header {
-    margin-bottom: 100px;
-}
+
 .stripe {
     display: flex;
     margin-top: 10px;
-    height: 32px;
-    font-size: 20px;  
-  
+    font-size: 20px;
 }
 .item {
     width: 130px;
@@ -937,5 +932,4 @@ h2 {
     height: 39px;
     width: 150px;
 
-}
 }
