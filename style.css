@@ -3,7 +3,6 @@
 
 body {
   font-family: Roboto Slab, Roboto;
-
   background-color: rgb(229, 229, 229);
 }
 
@@ -15,7 +14,6 @@ h3 {
   width: 667px;
 }
 .wrapper {
-  display: flex;
   box-sizing: border-box;
   width: 100%;
   margin-left: 122px;
