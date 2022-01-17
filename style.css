@@ -61,9 +61,7 @@ h4 {
   width: auto;
   color: rgb(30, 70, 129);
 }
-p {
-  font-size: 11px;
-}
+
 
 ul {
   font-family: Roboto;
@@ -76,7 +74,7 @@ ul {
 li {
   padding-bottom: 10px;
 }
-/*
+
 @media screen and (max-width: 1279px) and (min-width: 992px) {
   .wrapper {
     justify-content: space-between;
@@ -90,7 +88,7 @@ li {
     width: auto;
     color: rgb(30, 70, 129);
   }
-  p {
+  p{
     font-size: 18px;
   }
 
@@ -117,13 +115,10 @@ li {
   }
 }
 
-
-
-*/
 .course_start_date{
-    max-width: 1440px;
+    
     background-color: #9DC9C8;
-    margin:0 auto;
+  
 }
 
 h2{
@@ -134,8 +129,11 @@ h2{
 }
 
 .section-wrapper{
-    padding-left:122px;
-    padding-right: 146px;
+    padding-left:210px;
+    padding-right: 80px;
+    max-width: 1440px;
+    margin:0 auto;
+    
 }
 
 .course_reasons_header{
@@ -166,12 +164,12 @@ h2{
     margin-bottom: 185px;
 }
 
-.course_reasons_text{
+p.course_reasons_text{
     size:18px;
 }
 
 footer{
-    max-width: 1440px;
+  
     margin: 0 auto;
     background-color: black;
     color:white;
@@ -248,12 +246,8 @@ footer{
     color:white; 
  }
 /* Tablet scale*/
-/*
-@media screen and (min-width:992px) and (max-width: 1279px){
 
-    .course_start_date{
-        max-width: 834px;
-    }
+@media screen and (min-width:992px) and (max-width: 1279px){
     h2{
         font-size: 32px;
         padding-top: 103px;
@@ -266,13 +260,14 @@ footer{
         font-size: 14px;
     }
 
-    .course_reasons_text{
+    p.course_reasons_text{
         font-size:10px;
     }
 
     .section-wrapper{
         padding-left: 70px;
         padding-right:85px;
+        max-width: 834px;
     }
     .course_reasons{
         max-width:  170px;
@@ -281,9 +276,6 @@ footer{
     }
     .course_cost_container{
         margin-bottom: 40px;   
-    }
-    footer{
-        max-width: 834px;
     }
 
     #synch_logo_white{
@@ -346,10 +338,9 @@ footer{
 }
 
 /* Smartphone scale */
-/*
 @media screen and (min-width:320px) and (max-width: 991px){
     .course_start_date{
-        max-width: 394px;
+       
     }
     h2{
         font-size: 26px;
@@ -364,13 +355,14 @@ footer{
         font-size: 12px;
     }
 
-    .course_reasons_text{
+    p.course_reasons_text{
         font-size:10px;
     }
 
     .section-wrapper{
         padding-left: 35px;
         padding-right:0px;
+        max-width: 394px;
     }
     .course_reasons{
         max-width:  138px;
@@ -379,9 +371,6 @@ footer{
     }
     .course_cost_container{
         margin-bottom: 35px;   
-    }
-    footer{
-        max-width: 394px;
     }
 
     .footer_container{
@@ -569,7 +558,7 @@ footer{
     padding-top: 40px;
     padding-bottom: 28px;
 }
-/*
+
 @media (min-width:992px) and (max-width: 1279px) {
 
 .container {
@@ -701,7 +690,7 @@ footer{
 .student {
     background: #EFEFEF;
 /* width: 834px;*/
-/*
+
 }
 .student .container {
     padding-bottom: 64px;
@@ -753,9 +742,9 @@ footer{
 .student {
     background: #EFEFEF;
     /* width: 375px;*/
-/*
+
 }
-/*
+
 .student .container {
     padding-bottom: 53px;
 }
@@ -801,7 +790,7 @@ footer{
     height: 17px;
 }
 }
-*/
+
 /* Курс прошло человек */
 
 
@@ -885,16 +874,7 @@ h1 {
 .about {
     display: flex;
 }
-h2 {
-    font-family: Roboto Slab;
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 56px;
-    letter-spacing: 0em;
-    text-align: left;
 
-}
 .text {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 662px;
@@ -932,4 +912,5 @@ h2 {
     height: 39px;
     width: 150px;
 
+}
 }
