@@ -668,8 +668,7 @@ footer{
     line-height: 113%;
     margin-bottom: 1px;
 }
-    
-    
+     
 .cards-text p {
     font-size: 12px;
     margin-bottom: 11px;
@@ -677,7 +676,6 @@ footer{
 } 
 }
     
-
 @media (min-width:992px) and (max-width: 1279px) {
     
 .container {
