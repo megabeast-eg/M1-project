@@ -14,14 +14,16 @@ body {
 }
 
 .first_container{
-    max-width: 1271px;
+    max-width: 1440px;
     margin: 0 auto;
-    padding: 80px 20px;
 }
 
 h3 {
   font-family: Roboto Slab;
-  max-width: 667px;
+  font-size: 55px;
+  margin-left: 121px;
+  margin-top: 249px;
+  width: 667px;
 }
 
 
@@ -66,6 +68,9 @@ p {
 ul {
   font-family: Roboto;
   font-size: 14px;
+  margin-left: 121px;
+  width: 100%;
+  display: list-item;
 }
 
 li {
@@ -125,6 +130,7 @@ h2{
     font-weight: bold;
     font-size: 55px;
     font-family: 'Roboto Slab', sans-serif;
+    padding: 179px 0 0 0;
 }
 
 .section-wrapper{
@@ -464,9 +470,10 @@ footer{
 }
 
 .cards-item {
-    width: calc(100% / 3 - 37px);
+    width: 399px;
+    height: 328px;
     background: #FFFFFF;
-    box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
 
@@ -675,8 +682,7 @@ footer{
     line-height: 113%;
     margin-bottom: 1px;
 }
-    
-    
+     
 .cards-text p {
     font-size: 12px;
     margin-bottom: 11px;
@@ -684,7 +690,6 @@ footer{
 } 
 }
     
-
 @media (min-width:992px) and (max-width: 1279px) {
     
 .container {
@@ -694,7 +699,7 @@ footer{
 .student {
     background: #EFEFEF;
 /* width: 834px;*/
-/*
+
 }
 .student .container {
     padding-bottom: 64px;
@@ -746,9 +751,9 @@ footer{
 .student {
     background: #EFEFEF;
     /* width: 375px;*/
-/*
+
 }
-/*
+
 .student .container {
     padding-bottom: 53px;
 }
@@ -794,7 +799,7 @@ footer{
     height: 17px;
 }
 }
-*/
+
 /* Курс прошло человек */
 
 
