@@ -339,9 +339,6 @@ footer{
 
 /* Smartphone scale */
 @media screen and (min-width:320px) and (max-width: 991px){
-    .course_start_date{
-       
-    }
     h2{
         font-size: 26px;
         padding-top: 62px;
