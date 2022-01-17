@@ -15,269 +15,231 @@
 </head>
 
 <body>
-
-    <!-- Шапка сайта + верхний блок -->
-    <section class="first_container">
-        <header>
-            <img src="img\icons\elements\logo_mobile_black 1.svg" alt="logo">
-        </header>
-
-        <main>
+    <div class="wrapper">
+        <!-- Шапка сайта + верхний блок -->
+        <div class="container">
+            <header><img class="synchro" src="img\icons\elements\logo_mobile_black.svg" alt="logo"></header>
             <div class="stripe">
-                <div class="icon"><img src="img\icons\elements\globe (1).svg" alt="globe"></div>
+                <div class="icon-globe"><img class="icons" src="img\icons\elements\globe.svg" alt="globe"></div>
                 <div class="item">онлайн-курс</div>
-                <div class="icon"><img src="img\icons\elements\time.svg" alt="time"></div>
+                <div class="icon"><img class="icons" src="img\icons\elements\time.svg" alt="time"></div>
                 <div class="item">18 часов</div>
-                <div class="icon"><img src="img\icons\elements\calendar_2 (1).svg" alt="calendar"></div>
+                <div class="icon-calendar"><img class="icons" src="img\icons\elements\calendar_2.svg" alt="calendar"></div>
                 <div class="item">8 сентября</div>
             </div>
             <div class="start">
                 <div>
-                    <h1>Как смотреть кино</h1>
-                    <p class="eight">За 8 занятия станем активными зрителями и разберемся в кинопроцессе</p>
+                    <div><h1>Как смотреть кино</h1></div>
+                    <div class="sous-title"><p class="eight">За 8 занятий станем активными зрителями и разберемся в кинопроцессе</p></div>
                 </div>
-                <div class="first-image"><img src="img\icons\elements\noroot 1.svg" alt="director"></div>
+                <div class="first-image"><img class="director" src="img\icons\elements\Group_23.svg" alt="director"></div>
             </div>
             <div class="quote">
-                <div class="lines">Зритель для меня <br>не потребитель моей продукции, не судья, а соучастник
-                    творчества,
+                <div class="lines">Зритель для меня <br>не потребитель моей продукции, не судья, а соучастник творчества,
                     соавтор. </div>
                 <div class="name">Андрей Тарковский</div>
             </div>
+
+            <!-- О курсе -->
+            <h2>О курсе</h2>
+            <div class="about">
+                <div class="details">
+                    <p class="text">Порой фильмы устроены сложнее четырёхтомных романов. Но читать книги учат со школы, а смотреть кино —
+                        нет. При этом без подготовки бывает трудно получить от просмотра удовольствие.</p>
+                    <p class="text">На курсе из 8 занятий научимся быть осознанными зрителями. Познакомимся с этапами кинопроизводства и
+                        узнаем, как смотреть кино глазами сценариста, режиссёра и монтажёра. Разберёмся в особенностях
+                        жанров и рассмотрим важнейшие картины, от «Гражданина Кейна» до «Матрицы».</p>
+                </div>
+                <div class="second-image"><img class="cameraman" src="img\icons\elements\Group_24.svg" alt="cameraman"></div>
+            </div>
+            <div class="bottom-about">
+                <div class="third-image"><img class="operator" src="img\icons\elements\Group_25.svg" alt="farcameraman"></div>
+                <div class="together">
+                    <p class="head">8 занятий</p>
+                    <p class="line">Для погружения в кинематограф</p>
+                </div>
+                <div class="together-two">
+                    <p class="head-two">2 часа</p>
+                    <p class="line-two">Длительность каждого занятия</p>
+                </div>
+                <div class="together-three">
+                    <p class="head-three">3 недели</p>
+                    <p class="line-three">Длительность курса</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Форма занятий -->
+
+        <!-- Что узнаем -->
+
+        <!-- Программа курса -->
+        <section class="program section">
+            <div class="container">
+
+                <h2>Программа курса</h2>
+
+                <div class="cards">
+
+                    <div class="cards-item">
+                        <img src="/img/icons/elements/Rectangle_5.png" alt="Как создают кино">
+                        <div class="cards-text">
+                            <h4>1. Как создают кино</h4>
+                            <p>8 сентября 20:00<br>
+                                Данила Кузнецов
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cards-item">
+                        <img src="/img/icons/elements/Rectangle_7.png" alt="Взгляд драматурга">
+                        <div class="cards-text">
+                            <h4>2. Взгляд драматурга</h4>
+                            <p>10 сентября 20:00<br>
+                                Данила Кузнецов
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cards-item">
+                        <img src="/img/icons/elements/Rectangle_9.png" alt="Взгляд режиссёра">
+                        <div class="cards-text">
+                            <h4>3. Взгляд режиссёра</h4>
+                            <p>13 сентября 13:00<br>
+                                Данила Кузнецов
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cards-item">
+                        <img src="/img/icons/elements/Rectangle_13.png" alt="Взгляд монтажёра">
+                        <div class="cards-text">
+                            <h4>4. Взгляд монтажёра</h4>
+                            <p>15 сентября 20:00<br>
+                                Данила Кузнецов
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cards-item">
+                        <img src="/img/icons/elements/Rectangle_14.png" alt="Жанры в кино">
+                        <div class="cards-text">
+                            <h4>5. Жанры в кино</h4>
+                            <p>17 сентября 20:00<br>
+                                Данила Кузнецов
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cards-item">
+                        <img src="/img/icons/elements/Rectangle_15.png" alt="Язык кино. Семинар">
+                        <div class="cards-text">
+                            <h4>6. Язык кино. Семинар</h4>
+                            <p>20 сентября 20:00<br>
+                                Данила Кузнецов
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cards-item">
+                        <img src="/img/icons/elements/Rectangle_19.png" alt="Взгляд кинокритика">
+                        <div class="cards-text">
+                            <h4>7. Взгляд кинокритика</h4>
+                            <p>21 сентября 19:00<br>
+                                Дмитрий Скворцов
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cards-item">
+                        <img src="/img/icons/elements/Rectangle_20.png" alt="Осознанный зритель. Семинар.">
+                        <div class="cards-text cards-text-last">
+                            <h4>8. Осознанный зритель.<br>
+                                Семинар
+                            </h4>
+                            <p>22 сентября 19:00<br>
+                                Дмитрий Скворцов
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cards-item">
+                    </div>
+
+                </div>
+
+            </div>
         </section>
-    <!-- О курсе -->
-    <section class="first_container">
-        <h2>О курсе</h2>
-        <div class="about">
-            <div class="text">
-                <p>Порой фильмы устроены сложнее четырёхтомных романов. Но читать книги учат со школы, а смотреть
-                    кино —
-                    нет. При этом без подготовки бывает трудно получить от просмотра удовольствие.</p>
-                <p>На курсе из 8 занятий научимся быть осознанными зрителями. Познакомимся с этапами
-                    кинопроизводства и
-                    узнаем, как смотреть кино глазами сценариста, режиссёра и монтажёра. Разберёмся в особенностях
-                    жанров и рассмотрим важнейшие картины, от «Гражданина Кейна» до «Матрицы».</p>
-            </div>
-            <div class="second-image"><img src="img\icons\elements\_1 1.svg" alt="cameraman"></div>
-        </div>
-        <div class="bottom-about">
-            <div class="third-image"><img src="img\icons\elements\photo 1.svg" alt="farcameraman"></div>
-            <div>
-                <p class="head">8 занятий</p>
-                <p class="line">Для погружения в кинематограф</p>
-            </div>
-            <div>
-                <p class="head">2 часа</p>
-                <p class="line">Длительность каждого занятия</p>
-            </div>
-            <div>
-                <p class="head">3 недели</p>
-                <p class="line">Длительность курса</p>
-            </div>
-        </div>
-    </section>
-    <!-- Форма занятий -->
-    <section class="first_container">
-        <h2>Формат занятий</h2>
-        <div class="content">
-            <div class="column">
-                <h4>Вебинары</h4>
-                <p>
-                    Если вы не успели на вебинар, всегда можете посмотреть запись в личном
-                    кабинете
-                </p>
-            </div>
-            <div class="column">
-                <h4>Доступ навсегда</h4>
-                <p>Занятия проходят онлайн в режиме вебинаров с преподавателем</p>
-            </div>
-            <div class="column">
-                <h4>Общение</h4>
-                <p>Вы можете задать вопрос преподавателю на занятии</p>
-            </div>
-        </div class="column">
-    </div>
-    <!-- Что узнаем -->
-    <div class="first_container">
-        <h2>Что узнаем</h2>
-        <ul>
-            <li>Кто чем занят в съёмочной группе;</li>
-            <li>На какие этапы делится кинопроизводство;</li>
-            <li>Как выглядит сценарий фильма и как он меняется по ходу съёмок;</li>
-            <li>
-                Какими методами режиссёры заставляют нас смеяться, плакать и грустить;
-            </li>
-            <li>
-                Как построение кадра, музыка и свет помогают считывать заложенные в
-                фильм смыслы;
-            </li>
-            <li>
-                Какие жанры есть в кино и как от них зависит работа операторов,
-                осветителей и монтажёров;
-            </li>
-            <li>Как, зная всё это, понимать, о чем фильм.</li>
-        </ul>
-    </section>
-    <!-- Программа курса -->
-    <section class="first_container">
-        <h2>Программа курса</h2>
-        <div class="cards">
+        <!-- Курс прошло человек -->
+        <section class="student section">
+            <div class="container">
 
-            <div class="cards-item">
-                <img src="/img/icons/elements/Rectangle_5.png" alt="Как создают кино">
-                <div class="cards-text">
-                    <h4>1. Как создают кино</h4>
-                    <p>8 сентября 20:00<br>
-                        Данила Кузнецов
+                <h2>Курс прошло уже 1616 человек</h2>
+
+                <div class="comment">
+
+                    <p class="comment-text">Курс профессионально подготовлен, изложение материала весьма доступное,
+                        благодаря прекрасному
+                        изложению лекторов и демонстрации примеров. А наличие домашних заданий позволяет закрепить все
+                        полученные знания на практике. Теперь другими глазами смотрю фильмы, считываю не только сюжет ,
+                        но и
+                        могу оценить работу режиссера, оператора, монтажера и т.д. Спасибо!
                     </p>
-                </div>
-            </div>
 
-            <div class="cards-item">
-                <img src="/img/icons/elements/Rectangle_7.png" alt="Взгляд драматурга">
-                <div class="cards-text">
-                    <h4>2. Взгляд драматурга</h4>
-                    <p>10 сентября 20:00<br>
-                        Данила Кузнецов
-                    </p>
-                </div>
-            </div>
+                    <div class="comment-ekaterina">
 
-            <div class="cards-item">
-                <img src="/img/icons/elements/Rectangle_9.png" alt="Взгляд режиссёра">
-                <div class="cards-text">
-                    <h4>3. Взгляд режиссёра</h4>
-                    <p>13 сентября 13:00<br>
-                        Данила Кузнецов
-                    </p>
-                </div>
-            </div>
+                        <div class="comment-foto">
+                            <img src="/img/pictures/katya.png" alt="Фотография Екатерины Палеховой">
+                        </div>
 
-            <div class="cards-item">
-                <img src="/img/icons/elements/Rectangle_13.png" alt="Взгляд монтажёра">
-                <div class="cards-text">
-                    <h4>4. Взгляд монтажёра</h4>
-                    <p>15 сентября 20:00<br>
-                        Данила Кузнецов
-                    </p>
-                </div>
-            </div>
+                        <div class="comment-name">
+                            <h4>Екатерина Палехова</h4>
+                            <img class="social" src="/img/icons/social/fb_2_1.png" alt="facebook logo">
+                        </div>
 
-            <div class="cards-item">
-                <img src="/img/icons/elements/Rectangle_14.png" alt="Жанры в кино">
-                <div class="cards-text">
-                    <h4>5. Жанры в кино</h4>
-                    <p>17 сентября 20:00<br>
-                        Данила Кузнецов
-                    </p>
-                </div>
-            </div>
+                    </div>
 
-            <div class="cards-item">
-                <img src="/img/icons/elements/Rectangle_15.png" alt="Язык кино. Семинар">
-                <div class="cards-text">
-                    <h4>6. Язык кино. Семинар</h4>
-                    <p>20 сентября 20:00<br>
-                        Данила Кузнецов
-                    </p>
-                </div>
-            </div>
 
-            <div class="cards-item">
-                <img src="/img/icons/elements/Rectangle_19.png" alt="Взгляд кинокритика">
-                <div class="cards-text">
-                    <h4>7. Взгляд кинокритика</h4>
-                    <p>21 сентября 19:00<br>
-                        Дмитрий Скворцов
-                    </p>
-                </div>
-            </div>
-
-            <div class="cards-item">
-                <img src="/img/icons/elements/Rectangle_20.png" alt="Осознанный зритель. Семинар.">
-                <div class="cards-text cards-text-last">
-                    <h4>8. Осознанный зритель.<br>
-                        Семинар
-                    </h4>
-                    <p>22 сентября 19:00<br>
-                        Дмитрий Скворцов
-                    </p>
-                </div>
-            </div>
-
-            <div class="cards-item">
-            </div>
-        </div>
-    </section>
-    <!-- Курс прошло человек -->
-    <section class="first_container">
-        <h2>Курс прошло уже 1616 человек</h2>
-
-        <div class="comment">
-
-            <p class="comment-text">Курс профессионально подготовлен, изложение материала весьма доступное,
-                благодаря прекрасному
-                изложению лекторов и демонстрации примеров. А наличие домашних заданий позволяет закрепить
-                все
-                полученные знания на практике. Теперь другими глазами смотрю фильмы, считываю не только
-                сюжет ,
-                но и
-                могу оценить работу режиссера, оператора, монтажера и т.д. Спасибо!
-            </p>
-
-            <div class="comment-ekaterina">
-
-                <div class="comment-foto">
-                    <img src="/img/pictures/katya.png" alt="Фотография Екатерины Палеховой">
-                </div>
-
-                <div class="comment-name">
-                    <h4>Екатерина Палехова</h4>
-                    <img class="social" src="/img/icons/social/fb_2_1.png" alt="facebook logo">
                 </div>
 
             </div>
+        </section>
 
-
-        </div>
-    </section>
-
-    <!-- Начало курса -->
-    <section class="course_start_date">
-        <div class="section-wrapper">
-            <h2>Начало курса — 8 сентября</h2>
-            <div class="course_cost_container">
-                <p class="course_reasons_header">
-                    Стоимость
-                </p>
-
-                <p class="course_cost">
-                    3900 руб.
-                </p>
-            </div>
-            <div class="course_reasons_containter">
-                <div class="course_reasons">
+        <!-- Начало курса -->
+        <section class="course_start_date">
+            <div class="section-wrapper">
+                <h2>Начало курса — 8 сентября</h2>
+                <div class="course_cost_container">
                     <p class="course_reasons_header">
-                        Для любого уровня
-                    </p>
-                    <p class="course_reasons_text">
-                        Курс подходит и тем, кто начинает «с нуля», и тем, кто хочет упорядочить имеющиеся
-                        знания.
-                    </p>
-                </div>
-                <div class="course_reasons">
-                    <p class="course_reasons_header">
-                        Проходите сейчас
+                        Стоимость
                     </p>
 
-                    <p class="course_reasons_text">
-                        Если вы не успели на вебинар, всегда можете посмотреть запись в личном кабинете
+                    <p class="course_cost">
+                        3900 руб.
                     </p>
                 </div>
+                <div class="course_reasons_containter">
+                    <div class="course_reasons">
+                        <p class="course_reasons_header">
+                            Для любого уровня
+                        </p>
+                        <p class="course_reasons_text">
+                            Курс подходит и тем, кто начинает «с нуля», и тем, кто хочет упорядочить имеющиеся знания.
+                        </p>
+                    </div>
+                    <div class="course_reasons">
+                        <p class="course_reasons_header">
+                            Проходите сейчас
+                        </p>
+
+                        <p class="course_reasons_text">
+                            Если вы не успели на вебинар, всегда можете посмотреть запись в личном кабинете
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-    </main>
+        </section>
+
     <!-- Футер -->
     <footer>
         <div class="section-wrapper">
@@ -287,22 +249,19 @@
                     <div class="footer_social_buttons">
                         <a href="#"> <img src="/img/icons/social/instagram.png" alt="instagram-logo"
                                 class="instagram logo"> </a>
-                        <a href="#"><img src="/img/icons/social/fb.png" alt="facebook-logo"
-                                class="facebook logo"></a>
+                        <a href="#"><img src="/img/icons/social/fb.png" alt="facebook-logo" class="facebook logo"></a>
                         <a href="#"><img src="img/icons/social/vk.png" alt="vk-logo" class="vk logo"></a>
                         <a href="#"> <img src="img/icons//social/viber.png" alt="viber-logo" class="viber logo"></a>
                     </div>
                 </div>
                 <div class="footer_contacts">
                     <div class=footer_contacts_phone>
-                        <a href="#"> <img src="/img/icons/elements/phone_white.png" alt="phone-logo"
-                                class="phone logo">
+                        <a href="#"> <img src="/img/icons/elements/phone_white.png" alt="phone-logo" class="phone logo">
                         </a>
                         <a href="tel:+700000"><span>+7 (499) 39-146-39</span></a>
                     </div>
                     <div class="footer_contacts_email">
-                        <a href="#"><img src="/img/icons/elements/mail_white.png" alt="mail-logo"
-                                class="mail logo"></a>
+                        <a href="#"><img src="/img/icons/elements/mail_white.png" alt="mail-logo" class="mail logo"></a>
                         <a href="mailto:sample@mail.ru"><span>hello@synchronize.ru</span> </a>
                     </div>
                 </div>
@@ -312,6 +271,7 @@
             </div>
         </div>
     </footer>
+    </div>
 </body>
 
 </html>
