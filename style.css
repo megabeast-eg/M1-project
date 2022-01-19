@@ -459,68 +459,42 @@ a {
     }
 
 /* Программа курса */
-.section {
-  width: 100%;
-}
-.container {
-  max-width: calc(1440px - 169px);
-  margin: 0 auto;
-}
 
-.program h2 {
-  font-family: Roboto Slab;
-  font-weight: bold;
-  font-size: 55px;
-  line-height: 101%;
-  margin-left: 37px;
-  margin-bottom: 132px;
+.program {
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    margin-left: 36px;
+    margin-bottom: 95px;
 }
 .cards {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 121px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 39px;
 }
 
 .cards-item {
-  width: calc(100% / 3 - 37px);
-  background: #ffffff;
-  box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
-  border-radius: 30px;
+    width: calc(100% / 3 - 37px);
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
+    border-radius: 30px;
+    margin: 0 37px 41px 0;
 }
-
-.cards-item:last-child {
-  box-shadow: none;
-}
-
 .cards-item img {
-  width: 100%;
-}
-.cards-item:nth-child(-n + 3) {
-  margin-bottom: 41px;
-}
-.cards-item:nth-child(n + 4):nth-child(-n + 6) {
-  margin-bottom: 45px;
-}
-
-.cards-item {
-  margin-right: 37px;
-}
-
+    width: 100%;
+    height: 160px;
+ }
 .cards-text {
-  font-family: Roboto;
-  padding-left: 19px;
-  padding-top: 9px;
+    padding: 20px;
 }
-.cards-text h4 {
-  font-weight: bold;
-  font-size: 30px;
-  margin-bottom: 32px;
-  line-height: 130%;
+.cards-text-title {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0;
 }
-.cards-text-last h4 {
-  line-height: 113%;
-  margin-bottom: 4px;
+.cards-text-last .cards-text-title {
+    line-height: 113%;
+    margin-bottom: 4px;
 }
 
 .cards-text p {
@@ -528,291 +502,231 @@ a {
   margin-bottom: 21px;
   line-height: 130%;
 }
+.cards-text-time-last {
+    margin-top: 4px;
+}
+
+
+
+
+@media (min-width:992px) and (max-width: 1279px) {
+
+   .program {
+        font-size: 32px;
+        margin-left: 21px;
+        margin-bottom: 55px;
+    }
+    .cards {
+        margin: 0 0 19px;
+    }
+    
+    .cards-item {
+        box-shadow: 0.579167px 0.579167px 8.6875px rgb(0 0 0 / 25%);
+        border-radius: 17px;
+        margin: 0 21px 24px 0;
+    }
+     .cards-item img {
+        height: 92px;
+    }
+    .cards-text {
+        padding: 9px;
+    }
+    .cards-text .cards-text-title {
+        font-size: 17px;
+    }
+    .cards-text .cards-text-time {
+        font-size: 14px;
+        margin-top: 18px;
+    }
+    }
+    
+        
+    @media (max-width: 992px) {
+    
+.program {
+    font-size: 26px;
+    margin-bottom: 52px;
+    margin-left: 0px;
+}
+.cards {
+    margin: 0 0 19px;
+}
+.cards-item {
+    box-shadow: 0.4px 0.4px 6.9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    margin: 0 21 24px 0;
+}
+ .cards-item img {
+    height: 74px;
+}
+.cards-text {
+    padding: 9px;
+}
+.cards-text .cards-text-title {
+    font-size: 14px;
+}
+.cards-text .cards-text-time {
+    font-size: 12px;
+    margin-top: 15px;
+}
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+.cards-item {
+    width: calc(100% / 3 - 37px);
+    box-shadow: 0.4px 0.4px 6.9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    margin: 0 10 24px 10;
+}
+} 
+
+@media (min-width: 375px) and (max-width: 600px) {
+.cards-item {
+    width: calc(100% / 2 - 37px);
+    box-shadow: 0.4px 0.4px 6.9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    margin: 0 10 24px 10; 
+}
+}
+
+@media (max-width: 375px) {
+    .cards-item {
+        width: calc(100% - 37px);
+        box-shadow: 0.4px 0.4px 6.9px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        margin: 0 auto;
+        margin-bottom: 19px;
+    }
+}
+
 
 /* Курс прошло человек */
 
-.student {
-  background: #efefef;
-  /* width: 1440px;*/
+.cover-student {
+    background-color: #EFEFEF;
 }
-.student .container {
-  padding-bottom: 107px;
-}
-.student h2 {
-  font-family: Roboto Slab;
-  font-weight: bold;
-  font-size: 55px;
-  line-height: 101.38%;
-  padding-left: 36px;
-  padding-top: 91px;
-  margin-bottom: 68px;
+.attended-the-course {
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    margin: 0 0 62px 37px;
 }
 .comment {
-  max-width: 791px;
-  background: #ffffff;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
-  margin-left: 43px;
+    max-width: 791px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 40px 45px;
+    margin-left: 43px;
 }
 .comment-text {
-  max-width: 700px;
-  height: 203px;
-  font-family: Roboto;
-  font-size: 20px;
-  line-height: 150%;
-  padding: 44px 46px 10px 43px;
+    max-width: 700px;
+    font-size: 20px;
+    line-height: 150%;
+}
+.comment-ekaterina {
+    display: flex;
+}
+.comment-foto img {
+    max-width: 190px;
+}
+.comment-name-surname {
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 101.38%;
+    padding-top: 15px;
+}
+.social_fb {
+    width: 32px;
+}
+
+
+
+@media (min-width:992px) and (max-width: 1279px) {
+    
+.attended-the-course {
+    font-size: 32px;
+    margin: 0 0 52px 42px;
+}
+.comment {
+    max-width: 458px;
+    box-shadow: 0.57px 0.57px 11.5px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    padding: 26px 23px;
+}
+    
+.comment-text {
+    max-width: 405px;
+    font-size: 12px;
+    line-height: 150%;
 }
 .comment-ekaterina {
   display: flex;
 }
 
 .comment-foto img {
-  max-width: 190px;
-  margin: 0 27px 29px 26px;
+    max-width: 110px;
 }
 
-.comment-name h4 {
-  font-family: Roboto Slab;
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 101.38%;
-  padding-top: 40px;
-  padding-bottom: 28px;
-}
-/*
-@media (min-width:992px) and (max-width: 1279px) {
-
-.container {
-    max-width: calc(834px - 97px);
-    margin: 0 auto;
-}
-.program h2 {
-    font-size: 32px;
-    margin-left: 37px;
-    margin-bottom: 55px;
-}
-.cards {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-bottom: 53px;
-}
-
-.cards-item {
-    width: 231px;
-    height: 189px;
-    background: #FFFFFF;
-    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
-    border-radius: 17.375px;
-}
-.cards-item:last-child {
-    display: none;
-}
-.cards-item img {
-    width: 100%;
-}
-.cards-item:nth-child(-n+3) {
-    margin-bottom: 23.75px;
-}
-.cards-item:nth-child(n+4):nth-child(-n+6) {
-    margin-bottom: 26px;
-}
-.cards-item:not(:nth-child(3n)) {
-    margin-right: 21px;
-}
-
-.cards-text {
-    padding-left: 12px;
-    padding-top: 6px;
-}
-.cards-text h4 {
+.comment-name-surname {
     font-size: 17px;
-    margin-bottom: 18px;
-    line-height: 130%;
-}
-.cards-text-last h4 {
-    line-height: 113%;
-    margin-bottom: 1px;
-}
-
-.cards-text p {
-    font-size: 14px;
-    margin-bottom: 13px;
-    line-height: 130%;
-}
-}
-
-@media (max-width: 992px) {
-
-.container {
-    max-width: calc(375px - 64px);
-    margin: 0 auto;
-}
-.program h2 {
-    font-size: 26px;
-    margin-left: 3px;
-    margin-bottom: 52px;
-    }
-.cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 47px;
-    }
-    
-.cards-item {
-    width: 185px;
-    height: 153px;
-    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
-    border-radius: 14px;
-}
-.cards-item:last-child {
-    display: none;
-}
-.cards-item img {
-    width: 100%;
-}
-    .cards-item:nth-child(-n+3) {
-        margin-bottom: 24px;
-    }
-    .cards-item:nth-child(n+4):nth-child(-n+7) {
-        margin-bottom: 24px;
-    }
-    
-.cards-text {
-    padding-left: 9px;
-    padding-top: 5px;
-}
-.cards-text h4 {
-    font-size: 14px;
-    margin-bottom: 10px;
-    line-height: 130%;
-}
-.cards-text-last h4 {
-    line-height: 113%;
-    margin-bottom: 1px;
-}
-    
-    
-.cards-text p {
-    font-size: 12px;
-    margin-bottom: 11px;
-    line-height: 130%;
-} 
-}
-    
-
-@media (min-width:992px) and (max-width: 1279px) {
-    
-.container {
-    max-width: calc(834px - 97px);
-    margin: 0 auto;
-}
-.student {
-    background: #EFEFEF;
-/* width: 834px;*/
-/*
-}
-.student .container {
-    padding-bottom: 64px;
-}
-.student h2 {
-    font-size: 32px;
-    line-height: 101.38%;
-    padding-left: 22px;
-    padding-top: 53px;
-    margin-bottom: 40px;
-}
-.comment {
-    max-width: 458px;
-    background: #FFFFFF;
-    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
-    border-radius: 17px;
-    margin-left: 26px;
-}
-.comment-text {
-    max-width: 405px;
-    height: 117px; 
-    font-size: 12px;
-    line-height: 150%;
-    padding: 23px 26px 6px 26px;
-}
-.comment-ekaterina {
-    display: flex;
-}
-
-.comment-foto img{
-    width: 110px;
-    margin: 0 17px 17px 15px;
-}
-
-.comment-name h4 {
-    font-size: 17px;
-    line-height: 101.38%;
-    padding-top: 21px;
-    padding-bottom: 18px;
-}
-}
-
-@media (max-width: 992px) {
-
-.container {
-    max-width: calc(375px - 64px);
-    margin: 0 auto;
-}
-.student {
-    background: #EFEFEF;
-    /* width: 375px;*/
-/*
-}
-/*
-.student .container {
-    padding-bottom: 53px;
-}
-.student h2 {
-    font-size: 26px;
-    line-height: 101.38%;
-    padding-top: 42px;
-    margin-bottom: 20px;
-    padding-left: 0;
-    width: 259px;
-}
-.comment {
-    width: 308px;
-    background: #FFFFFF;
-    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
-    border-radius: 14px;
-    margin-left: 0;
-}
-.comment-text {
-    width: 266px;
-    height: 111px; 
-    font-size: 10px;
-    line-height: 150%;
-    padding: 18px 21px 34px 21px;
-}
-.comment-ekaterina {
-    display: flex;
-}
-    
-.comment-foto img{
-    width: 80px;
-    margin: 4 5px 15px 24px;
-    }
-    
-.comment-name h4 {
-    font-size: 14px;
-    line-height: 101.38%;
+    font-weight: bold;
     padding-top: 15px;
-    padding-bottom: 18px;
 }
-.social {
-    width: 15px;
-    height: 17px;
+.social_fb {
+    width: 19px;
 }
 }
-*/
-/* Курс прошло человек */
+
+@media (max-width: 992px) {
+
+    .attended-the-course {
+        font-size: 26px;
+        margin: 0 0 42px;
+        line-height: 101.38%;
+    }
+    .comment {
+        max-width: 308px;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        padding: 18px 21px;
+    }
+        
+    .comment-text {
+        max-width: 266px;
+        font-size: 10px;
+    }
+    .comment-ekaterina {
+        display: flex;
+    }
+    
+    .comment-foto img {
+        max-width: 80px;
+    }
+    
+    .comment-name-surname {
+        font-size: 14px;
+        padding-top: 15px;
+    }
+    .social_fb {
+        width: 15px;
+    }
+    }
+
+
+@media (max-width: 375px) {
+
+    .comment {
+        max-width: 308px;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        padding: 18px 21px;
+        margin: 0;
+    }
+}
+
+/* Чей код? */
 
 .stripe {
   display: flex;
