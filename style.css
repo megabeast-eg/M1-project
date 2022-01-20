@@ -6,6 +6,7 @@ body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
+
 .wrapper {
   width: 100%;
   margin: 0 auto;
@@ -21,31 +22,46 @@ h2 {
   font-family: Roboto Slab;
   font-size: 55px;
 }
+
+.head-format_h2 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: bold;
+  font-size: 55px;
+}
+
 .content {
   display: flex;
   justify-content: space-between;
 }
+
 .column {
   width: calc(33% - 10px);
   margin-right: 180px;
   font-size: 14px;
   text-align: left;
 }
+
 .text_column {
   font-size: 18px;
 }
+
 h3 {
+  font-size: 25px;
+  width: auto;
+}
+
+.head-format_h3 {
   font-size: 25px;
   width: auto;
   color: rgb(30, 70, 129);
 }
 
-ul {
+.head-format_h2_column-list {
   font-family: Roboto;
   font-size: 24px;
 }
 
-li {
+.head-format_h2_list {
   padding-bottom: 10px;
 }
 
@@ -53,13 +69,24 @@ li {
   h2 {
     font-size: 32px;
   }
+
+  .head-format_h2 {
+    font-size: 32px;
+  }
+
   .content {
     display: flex;
   }
+
   .column {
     width: 90%;
   }
+
   h3 {
+    font-size: 15px;
+  }
+
+  .head-format_h3 {
     font-size: 15px;
   }
 
@@ -67,7 +94,7 @@ li {
     font-size: 11px;
   }
 
-  ul {
+  .head-format_h2_column-list {
     font-size: 14px;
     width: 100%;
   }
@@ -77,13 +104,24 @@ li {
   h2 {
     font-size: 26px;
   }
+
+  .head-format_h2 {
+    font-size: 26px;
+  }
+
   .content {
     display: block;
   }
+
   .column {
     width: 90%;
   }
+
   h3 {
+    font-size: 12px;
+  }
+
+  .head-format_h3 {
     font-size: 12px;
   }
 
@@ -91,7 +129,7 @@ li {
     font-size: 10px;
   }
 
-  ul {
+  .head-format_h2_column-list {
     font-size: 12px;
     width: 100%;
   }
