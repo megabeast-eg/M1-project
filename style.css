@@ -1085,7 +1085,6 @@ a {
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
     border-radius: 30px;
-    /* margin: 0 37px 41px 0; */
 }
 .cards-item img {
     width: 100%;
@@ -1131,7 +1130,6 @@ a {
     .cards-item {
         box-shadow: 0.579167px 0.579167px 8.6875px rgb(0 0 0 / 25%);
         border-radius: 17px;
-        /* margin: 0 21px 24px 0; */
     }
      .cards-item img {
         height: 92px;
@@ -1161,7 +1159,6 @@ a {
 .cards-item {
     box-shadow: 0.4px 0.4px 6.9px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
-    /* margin: 0 21 24px 0; */
 }
  .cards-item img {
     height: 74px;
