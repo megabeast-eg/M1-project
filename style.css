@@ -762,7 +762,7 @@ h2 {
   font-weight: bold;
   font-size: 55px;
   font-family: "Roboto Slab", sans-serif;
-  padding: 179px 0 0 0;
+  /* padding: 179px 0 0 0; */
 }
 
 .section-wrapper {
@@ -884,7 +884,7 @@ a {
 @media screen and (min-width: 992px) and (max-width: 1279px) {
   h2 {
     font-size: 32px;
-    padding-top: 103px;
+    /* padding-top: 103px; */
   }
   .course_cost {
     font-size: 46px;
@@ -974,8 +974,8 @@ a {
 @media screen and (min-width: 320px) and (max-width: 991px) {
   h2 {
     font-size: 26px;
-    padding-top: 62px;
-    max-width: 224px;
+    /* padding-top: 62px; */
+    /* max-width: 224px; */
   }
   .course_cost {
     font-size: 37px;
@@ -1071,25 +1071,25 @@ a {
     font-family: Roboto Slab;
     font-weight: bold;
     font-size: 55px;
-    margin-left: 36px;
     margin-bottom: 95px;
 }
 .cards {
     display: flex;
     flex-wrap: wrap;
     margin: 0 0 39px;
+    gap: 37px;
 }
 
 .cards-item {
-    width: calc(100% / 3 - 37px);
+    width: calc(100% / 3 - 25px);
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
     border-radius: 30px;
-    margin: 0 37px 41px 0;
 }
 .cards-item img {
     width: 100%;
     height: 160px;
+    object-fit: cover;
  }
 .cards-text {
     padding: 20px;
@@ -1120,17 +1120,16 @@ a {
 
    .program {
         font-size: 32px;
-        margin-left: 21px;
         margin-bottom: 55px;
     }
     .cards {
         margin: 0 0 19px;
+        gap: 21px;
     }
     
     .cards-item {
         box-shadow: 0.579167px 0.579167px 8.6875px rgb(0 0 0 / 25%);
         border-radius: 17px;
-        margin: 0 21px 24px 0;
     }
      .cards-item img {
         height: 92px;
@@ -1153,7 +1152,6 @@ a {
 .program {
     font-size: 26px;
     margin-bottom: 52px;
-    margin-left: 0px;
 }
 .cards {
     margin: 0 0 19px;
@@ -1161,7 +1159,6 @@ a {
 .cards-item {
     box-shadow: 0.4px 0.4px 6.9px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
-    margin: 0 21 24px 0;
 }
  .cards-item img {
     height: 74px;
@@ -1180,7 +1177,7 @@ a {
 
 @media (min-width: 600px) and (max-width: 992px) {
 .cards-item {
-    width: calc(100% / 3 - 37px);
+    width: calc(100% / 3 - 25px);
     box-shadow: 0.4px 0.4px 6.9px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
     margin: 0 10 24px 10;
@@ -1189,7 +1186,7 @@ a {
 
 @media (min-width: 375px) and (max-width: 600px) {
 .cards-item {
-    width: calc(100% / 2 - 37px);
+    width: calc(100% / 2 - 25px);
     box-shadow: 0.4px 0.4px 6.9px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
     margin: 0 10 24px 10; 
@@ -1197,8 +1194,11 @@ a {
 }
 
 @media (max-width: 375px) {
+  .cards {
+    justify-content: center;
+  }
     .cards-item {
-        width: calc(100% - 37px);
+        width: calc(100% - 25px);
         box-shadow: 0.4px 0.4px 6.9px rgba(0, 0, 0, 0.25);
         border-radius: 14px;
         margin: 0 auto;
@@ -1216,7 +1216,7 @@ a {
     font-family: Roboto Slab;
     font-weight: bold;
     font-size: 55px;
-    margin: 0 0 62px 37px;
+    margin: 0 0 62px 0px;
 }
 .comment {
     max-width: 791px;
@@ -1224,10 +1224,8 @@ a {
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     padding: 40px 45px;
-    margin-left: 43px;
 }
 .comment-text {
-    max-width: 700px;
     font-size: 20px;
     line-height: 150%;
 }
@@ -1254,7 +1252,7 @@ a {
     
 .attended-the-course {
     font-size: 32px;
-    margin: 0 0 52px 42px;
+    margin: 0 0 52px 0px;
 }
 .comment {
     max-width: 458px;
@@ -1264,7 +1262,6 @@ a {
 }
     
 .comment-text {
-    max-width: 405px;
     font-size: 12px;
     line-height: 150%;
 }
@@ -1301,7 +1298,6 @@ a {
     }
         
     .comment-text {
-        max-width: 266px;
         font-size: 10px;
     }
     .comment-ekaterina {
